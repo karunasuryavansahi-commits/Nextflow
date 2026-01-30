@@ -1,0 +1,15 @@
+# Nextflow runtime files
+.nextflow/
+work/
+.nextflow.log*
+
+# Editor files
+.vscode/
+*.code-workspace
+
+# Data files (optional – recommended)
+Data/
+reference/
+
+# OS files
+.DS_Store

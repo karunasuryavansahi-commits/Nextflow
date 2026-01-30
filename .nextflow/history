@@ -1,7 +1,0 @@
-2026-01-30 09:17:30	7.7s	elated_brown	OK	ef41e3ccba679789abf1767a9537aad4	7576d79d-fe47-4430-8adc-a06516a5297f	nextflow run main.nf
-2026-01-30 09:25:09	7s	nostalgic_becquerel	OK	ef41e3ccba679789abf1767a9537aad4	7576d79d-fe47-4430-8adc-a06516a5297f	nextflow run main.nf -resume
-2026-01-30 09:34:38	3.5s	cheeky_leavitt	OK	ef41e3ccba679789abf1767a9537aad4	7576d79d-fe47-4430-8adc-a06516a5297f	nextflow run main.nf -resume
-2026-01-30 11:53:35	3s	pedantic_gutenberg	OK	ef41e3ccba679789abf1767a9537aad4	7576d79d-fe47-4430-8adc-a06516a5297f	nextflow run main.nf -resume
-2026-01-30 12:13:53	2.8s	serene_cori	OK	ef41e3ccba679789abf1767a9537aad4	7576d79d-fe47-4430-8adc-a06516a5297f	nextflow run main.nf -resume
-2026-01-30 13:54:58	47.8s	small_heyrovsky	OK	ef41e3ccba679789abf1767a9537aad4	7576d79d-fe47-4430-8adc-a06516a5297f	nextflow run main.nf -resume
-2026-01-30 14:03:20	3.4s	disturbed_planck	OK	ef41e3ccba679789abf1767a9537aad4	7576d79d-fe47-4430-8adc-a06516a5297f	nextflow run main.nf -resume
