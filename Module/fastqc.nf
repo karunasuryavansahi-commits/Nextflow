@@ -9,6 +9,7 @@ process FASTQC {
 
     script:
     """
-    fastqc ${reads}
+    ${params.fastqc_bin} ${reads}
     """
 }
+

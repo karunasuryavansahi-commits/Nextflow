@@ -12,20 +12,14 @@ process ALIGNMENT {
 
     script:
     """
-    # Index reference (only once per work dir)
-    bwa index ${ref}
+    ${params.bwa_bin} index ${ref}    #Index reference
 
-    # Alignment
-    bwa mem ${ref} ${reads} > aligned.sam
+    ${params.bwa_bin} mem ${ref} ${reads} > aligned.sam    #Alignment
 
-    # Convert SAM → BAM
-    samtools view -Sb aligned.sam > aligned.bam
+    ${params.samtools_bin} view -Sb aligned.sam > aligned.bam   # Convert SAM → BAM
 
-    # Sort BAM
-    samtools sort aligned.bam -o aligned.sorted.bam
+    ${params.samtools_bin} sort aligned.bam -o aligned.sorted.bam  # Sort BAM
 
-    # Index BAM
-    samtools index aligned.sorted.bam
+    ${params.samtools_bin} index aligned.sorted.bam  # Index BAM
     """
 }
-

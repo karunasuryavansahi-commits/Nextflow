@@ -13,9 +13,10 @@ process VARIANT_CALLING {
     script:
     """
     # Create BCF
-    bcftools mpileup -f ${ref} ${bam} > variants.bcf
+    ${params.bcftools_bin} mpileup -f ${ref} ${bam} > variants.bcf
 
     # Call variants
-    bcftools call -mv variants.bcf -o variants.vcf
+    ${params.bcftools_bin} call -mv variants.bcf -o variants.vcf
     """
 }
+
