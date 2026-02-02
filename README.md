@@ -1,4 +1,4 @@
-# Nextflow QC, Alignment, and Variant Calling Pipeline
+# Nextflow-Based Variant Analysis Pipeline with Integrated QC and Alignment
 
 ## Overview
 This project implements a basic Nextflow pipeline for preprocessing, alignment, and variant calling of sequencing data.
@@ -110,21 +110,20 @@ Nextflow/
 └── work/
 
 
-#How to Run the Pipeline
-1️⃣ Clone the GitHub repository
+# Clone the GitHub repository
 git clone https://github.com/your-username/Nextflow.git
 cd Nextflow
 
-2️⃣ Create and activate Conda environment
+# Activate Conda environment
 conda activate bnf
 
-3️⃣Verify Required Tools
+# Verify required tools
 which fastqc cutadapt bwa samtools bcftools
 
-4️⃣Run the Pipeline
+# Run the Nextflow pipeline
 nextflow run main.nf
 
-5️⃣Resume the Pipeline
+# Resume the pipeline if needed
 nextflow run main.nf -resume
 
 
