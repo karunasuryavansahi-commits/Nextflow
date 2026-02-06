@@ -116,26 +116,25 @@ Nextflow/
 git clone https://github.com/your-username/Nextflow.git
 cd Nextflow
 
----
 ```
 
 # Activate Conda environment
 ```bash
 conda activate bnf
 
----
+
 ```
 # Verify required tools
 ```bash
 which fastqc cutadapt bwa samtools bcftools
 
----
+
 ```
 # Run the Nextflow pipeline
 ```bash
 nextflow run main.nf
 
----
+
 ```
 
 # Resume the pipeline if needed

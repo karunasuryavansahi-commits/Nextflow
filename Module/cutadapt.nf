@@ -8,7 +8,8 @@ process CUTADAPT {
 
     script:
     """
-    ${params.cutadapt_bin} -a AGATCGGAAGAGC -o trimmed.fastq ${reads}
+    ${params.cutadapt_bin} -o trimmed.fastq ${reads}
     """
 }
+
 
