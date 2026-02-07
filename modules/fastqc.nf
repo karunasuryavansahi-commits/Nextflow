@@ -12,5 +12,3 @@ process FASTQC {
     ${params.fastqc_bin} ${reads}
     """
 }
-
-

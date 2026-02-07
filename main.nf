@@ -1,8 +1,5 @@
-include { QC_PIPELINE } from './workflow/workflow.nf'
+include { QC_PIPELINE } from './workflows/workflow.nf'
 
 workflow {
     QC_PIPELINE()
 }
-
-
-
